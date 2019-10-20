@@ -21,7 +21,7 @@ class FamilyAccount{
 			System.out.println("	3 µÇ¼ÇÖ®³õ");
 			break;
 		case '4':
-			System.out.println("	4 ÍË       ³ö");
+			isFlag = false;
 			break;
 			}
 		}
