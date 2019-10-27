@@ -18,7 +18,7 @@
 public class InstanceTest {
 	public static void main(String[] args) {
 		Phone p = new Phone();
-//		p = null;
+		p = null;
 		System.out.println(p);
 		
 		p.sendEmail();
@@ -26,15 +26,15 @@ public class InstanceTest {
 		
 		
 		//匿名对象
-//		new Phone().sendEmail();
-//		new Phone().playGame();
+		new Phone().sendEmail();
+		new Phone().playGame();
 		
 		new Phone().price = 1999;
 		new Phone().showPrice();//0.0
 		
 		//**********************************
 		PhoneMall mall = new PhoneMall();
-//		mall.show(p);
+		mall.show(p);
 		//匿名对象的使用
 		mall.show(new Phone());
 		
